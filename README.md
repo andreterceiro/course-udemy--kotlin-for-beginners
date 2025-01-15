@@ -55,3 +55,5 @@ As you know, you can execute the `.jar` file this way:
 ```sh
 java -jar 07-PrivateFunction.jar
 ```
+
+But if you add the modifier "`private`" in the begginig of the file where we declare the funcion "`hi`" in the file `07-PrivateFunctionAux.php`, we will can't use the function "`hi`" om the file `-7-PrivateFunction.kt`.
