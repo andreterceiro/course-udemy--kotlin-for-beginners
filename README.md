@@ -18,3 +18,28 @@ java -jar 01-HelloWorld.jar
 ```
 
 **Note**: In a sucessfull `jar` generation, `kotlinc` will not return anything.
+
+
+# Private functions
+
+You can have a private function without a class. Let's see the contents of the files `07-PrivateFunction.kt` and `07-PrivateFunctionAux.kt`.
+
+`07-PrivateFunction.kt`:
+```kotlin
+private fun greet() {
+    println("Hello")
+}
+
+fun main() {
+    greet()
+    hi()
+    greet()
+}
+```
+
+`07-PrivateFunctionAux.kt`:
+```kotlin
+fun hi() {
+    println("Hi")
+}
+```
