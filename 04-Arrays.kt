@@ -5,4 +5,9 @@ fun main() {
     // Do not work
     // var names2 = {"Benedito", "Rodrigo", "Hygor"}
     // print(names2.contentToString())
+
+    // Do not work
+    // var names3 = ["Benedito", "Rodrigo", "Hygor"]
+    // print(names3.contentToString())
+
 }
