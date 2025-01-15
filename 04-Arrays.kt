@@ -19,4 +19,9 @@ fun main() {
     // Do not work
     // names4[0]= "André"
     print(names4)
+
+    var names5 = arrayListOf("Benedito", "Rodrigo", "Hygor", 5)
+    names5[0]= "André"
+    print(names5)
+
 }
