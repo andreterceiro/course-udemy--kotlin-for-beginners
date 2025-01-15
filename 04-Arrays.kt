@@ -14,4 +14,9 @@ fun main() {
     // Do not work
     // var names3 = ["Benedito", "Rodrigo", "Hygor"]
     // print(names3.contentToString())
+
+    var names4 = listOf("Estrela", "Valverde", "Fernando", 4)
+    // Do not work
+    // names4[0]= "André"
+    print(names4)
 }
