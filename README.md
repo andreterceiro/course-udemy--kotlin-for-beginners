@@ -43,3 +43,15 @@ fun hi() {
     println("Hi")
 }
 ```
+
+You can use the function `hi()` of the file `07-PrivateFunctionAux.kt` in the file `07-PrivateFunction.kt` if you include this file in the `.jar` generation. Example:
+
+```sh
+kotlinc -include-runtime 07-PrivateFunction.kt 07-PrivateFunctionAux.kt -d 07-PrivateFunction.jar
+```
+
+As you know, you can execute the `.jar` file this way:
+
+```sh
+java -jar 07-PrivateFunction.jar
+```
